@@ -1,6 +1,6 @@
 # File remover application
 Application moves files to the specified thrash directory one of following ways:
-* after the specified file
+* before the specified file
 * after the specified file
 * between the 2 specified files
 * revert all deleted files back to the default directory
