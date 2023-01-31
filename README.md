@@ -1,18 +1,24 @@
-# File remover application
+# File processor application
+
+## File archiver/unarchiver
+
+TBD
+
+## File remover
 Application moves files to the specified thrash directory one of following ways:
 * before the specified file
 * after the specified file
 * between the 2 specified files
 * revert all deleted files back to the default directory
 
-## Between the 2 specified files
+### Between the 2 specified files
 `node index.js delete between myfile0200.txt myfile0202.txt`
 
-## Before the specified file 
+### Before the specified file 
 `node index.js delete before myfile0202.txt`
 
-## After the specified file
+### After the specified file
 `node index.js delete after myfile0202.txt`
 
-## Revert all deleted files back to the default directory
+### Revert all deleted files back to the default directory
 `node index.js revert`

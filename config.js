@@ -1,6 +1,9 @@
 export const config = {
     fileCleanUp: {
-        initDirName: './output',
-        thrashDirName: './thrash'
-    }
+        initDirName: './file-remover/init',
+        thrashDirName: './file-remover/thrash'
+    },
+    fileArchiver: {
+        initDirName: './file-archiver/output'
+    },
 }
